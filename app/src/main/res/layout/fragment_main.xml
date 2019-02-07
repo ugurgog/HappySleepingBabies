@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/content_background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_content_height"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/refrigeratorLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/TransparentLightBlue"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:padding="10dp"
+                        android:src="@drawable/refrigerator" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/REFRIGERATOR"
+                        android:textColor="@color/DodgerBlue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vacuumCleanerLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/TransparentLightBlue"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:padding="10dp"
+                        android:src="@drawable/vacuum_cleaner" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/VACUUM_CLEANER"
+                        android:textColor="@color/DodgerBlue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_content_height"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/fireLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/TransparentLightBlue"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:padding="10dp"
+                        android:src="@drawable/fire" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/FIRE"
+                        android:textColor="@color/DodgerBlue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/hairDryerLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/TransparentLightBlue"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:padding="10dp"
+                        android:src="@drawable/hair_dryer" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/HAIR_DRYER"
+                        android:textColor="@color/DodgerBlue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_content_height"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/fanLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/TransparentLightBlue"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:padding="10dp"
+                        android:src="@drawable/fan" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/FAN"
+                        android:textColor="@color/DodgerBlue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rainLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/TransparentLightBlue"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:padding="10dp"
+                        android:src="@drawable/rain" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/RAIN"
+                        android:textColor="@color/DodgerBlue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_content_height"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/cricketLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/TransparentLightBlue"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:padding="10dp"
+                        android:src="@drawable/cricket" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/CRICKET"
+                        android:textColor="@color/DodgerBlue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/waterfallLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/TransparentLightBlue"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:padding="10dp"
+                        android:src="@drawable/waterfall" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/WATERFALL"
+                        android:textColor="@color/DodgerBlue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_content_height"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/windLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/TransparentLightBlue"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:padding="10dp"
+                        android:src="@drawable/wind" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/WIND"
+                        android:textColor="@color/DodgerBlue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/electricityLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/TransparentLightBlue"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:padding="10dp"
+                        android:src="@drawable/electricity" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/ELECTRICITY"
+                        android:textColor="@color/DodgerBlue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_content_height"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/waveLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/TransparentLightBlue"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:padding="10dp"
+                        android:src="@drawable/wave" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/WAVE"
+                        android:textColor="@color/DodgerBlue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/riverLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/TransparentLightBlue"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:padding="10dp"
+                        android:src="@drawable/river" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/RIVER"
+                        android:textColor="@color/DodgerBlue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_content_height"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/waterLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/TransparentLightBlue"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:padding="10dp"
+                        android:src="@drawable/water" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/WATER"
+                        android:textColor="@color/DodgerBlue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/underwaterLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:background="@color/TransparentLightBlue"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:padding="10dp"
+                        android:src="@drawable/underwater" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/UNDERWATER"
+                        android:textColor="@color/DodgerBlue"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/ADMOB_BANNER_AD_UNIT_ID">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+</LinearLayout>

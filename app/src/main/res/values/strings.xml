@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Mutlu Uyuyan Bebekler</string>
+    
+    <string name="REFRIGERATOR">Buzdolabı</string>
+    <string name="VACUUM_CLEANER">Süpürge</string>
+    <string name="FIRE">Ateş</string>
+    <string name="HAIR_DRYER">Saç Kurutma Makinesi</string>
+    <string name="FAN">Fan</string>
+    <string name="RAIN">Yağmur</string>
+    <string name="CRICKET">Cırcır Böceği</string>
+    <string name="WATERFALL">Şelale</string>
+    <string name="WIND">Rüzgar</string>
+    <string name="ELECTRICITY">Elektrik</string>
+    <string name="WAVE">Dalga</string>
+    <string name="RIVER">Nehir</string>
+    <string name="WATER">Su</string>
+    <string name="UNDERWATER">Sualtı</string>
+    <string name="DONE">Bitti!</string>
+
+    <string name="ADMOB_APP_ID">ca-app-pub-7227467199436307~3569314776</string>
+    <string name="ADMOB_BANNER_AD_UNIT_ID">ca-app-pub-7227467199436307/6984394722</string>
+    <string name="ADMOB_INTERSITITIAL_AD_UNIT_ID">ca-app-pub-7227467199436307/5615472730</string>
+
+
+    <!--Test-->
+    <!--<string name="ADMOB_BANNER_AD_UNIT_ID">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ADMOB_INTERSITITIAL_AD_UNIT_ID">ca-app-pub-3940256099942544/1033173712</string>-->
+
+
+
+</resources>

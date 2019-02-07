@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Happy Sleeping Babies</string>
+
+    <string name="REFRIGERATOR">Refrigerator</string>
+    <string name="VACUUM_CLEANER">Vacuum cleaner</string>
+    <string name="FIRE">Fire</string>
+    <string name="HAIR_DRYER">Hair dryer</string>
+    <string name="FAN">Fan</string>
+    <string name="RAIN">Rain</string>
+    <string name="CRICKET">Cricket</string>
+    <string name="WATERFALL">Waterfall</string>
+    <string name="WIND">Wind</string>
+    <string name="ELECTRICITY">Elektricity</string>
+    <string name="WAVE">Wave</string>
+    <string name="RIVER">River</string>
+    <string name="WATER">Water</string>
+    <string name="UNDERWATER">Underwater</string>
+    <string name="DONE">Done!</string>
+
+    <string name="ADMOB_APP_ID">ca-app-pub-7227467199436307~3569314776</string>
+    <string name="ADMOB_BANNER_AD_UNIT_ID">ca-app-pub-7227467199436307/6984394722</string>
+    <string name="ADMOB_INTERSITITIAL_AD_UNIT_ID">ca-app-pub-7227467199436307/5615472730</string>
+
+</resources>

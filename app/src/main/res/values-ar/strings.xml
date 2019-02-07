@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سعيد النوم الاطفال</string>
+
+    <string name="REFRIGERATOR">ثلاجة</string>
+    <string name="VACUUM_CLEANER">مكنسة</string>
+    <string name="FIRE">حريق</string>
+    <string name="HAIR_DRYER">مجفف شعر</string>
+    <string name="FAN">مروحة</string>
+    <string name="RAIN">مطر</string>
+    <string name="CRICKET">السقاطة الخنفساء</string>
+    <string name="WATERFALL">الشلالات</string>
+    <string name="WIND">رياح</string>
+    <string name="ELECTRICITY">كهربائي</string>
+    <string name="WAVE">موجة</string>
+    <string name="RIVER">نهر</string>
+    <string name="WATER">ماء</string>
+    <string name="UNDERWATER">تحت الماء</string>
+    <string name="DONE">الامر قد انتهى</string>
+
+    <string name="ADMOB_APP_ID">ca-app-pub-7227467199436307~3569314776</string>
+    <string name="ADMOB_BANNER_AD_UNIT_ID">ca-app-pub-7227467199436307/6984394722</string>
+    <string name="ADMOB_INTERSITITIAL_AD_UNIT_ID">ca-app-pub-7227467199436307/5615472730</string>
+
+</resources>

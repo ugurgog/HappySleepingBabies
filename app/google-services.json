@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "809165713581",
+    "firebase_url": "https://happy-sleeping-babies.firebaseio.com",
+    "project_id": "happy-sleeping-babies",
+    "storage_bucket": "happy-sleeping-babies.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809165713581:android:3340417105b7b6d8",
+        "android_client_info": {
+          "package_name": "uren.com.happysleepingbabies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809165713581-5m1hv11dm3e6nhugc0t5n75pld1l2sab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uren.com.happysleepingbabies",
+            "certificate_hash": "835135492279180c8c9d6517641665756f89cf21"
+          }
+        },
+        {
+          "client_id": "809165713581-64nu197on580d7el150p83uou94pmqhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAtDZgtrYkyswZmjuOJEnGdVPuudWGdf4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809165713581-64nu197on580d7el150p83uou94pmqhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

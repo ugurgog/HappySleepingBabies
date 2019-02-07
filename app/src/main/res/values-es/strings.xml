@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Felices Bebes Durmiendo</string>
+
+    <string name="REFRIGERATOR">Nevera</string>
+    <string name="VACUUM_CLEANER">Aspiradora</string>
+    <string name="FIRE">Fuego</string>
+    <string name="HAIR_DRYER">Secador de pelo</string>
+    <string name="FAN">Vantilator</string>
+    <string name="RAIN">lluvia</string>
+    <string name="CRICKET">Escarabajo de trinquete</string>
+    <string name="WATERFALL">Cascadas</string>
+    <string name="WIND">Viento</string>
+    <string name="ELECTRICITY">Eléctrico</string>
+    <string name="WAVE">Ola</string>
+    <string name="RIVER">Río</string>
+    <string name="WATER">Agua</string>
+    <string name="UNDERWATER">Submarino</string>
+    <string name="DONE">Se acabó!</string>
+
+    <string name="ADMOB_APP_ID">ca-app-pub-7227467199436307~3569314776</string>
+    <string name="ADMOB_BANNER_AD_UNIT_ID">ca-app-pub-7227467199436307/6984394722</string>
+    <string name="ADMOB_INTERSITITIAL_AD_UNIT_ID">ca-app-pub-7227467199436307/5615472730</string>
+
+</resources>
